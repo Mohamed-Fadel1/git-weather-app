@@ -1,0 +1,57 @@
+
+
+
+input {
+    background-color: #1e202b;
+    color: white !important;
+}
+
+
+.col-md-4 {
+    background-color: #0a0b0bd3;
+}
+
+
+.hamada {
+    font-size: 50px  !important;
+}
+
+
+.footer-icons {
+    width: 25px;
+}
+
+
+.navbar-nav .nav-link.active {
+    color: #009ad8;
+    border : 2px solid #009ad8 ;
+    border-radius: 30px;
+
+}
+
+.nav-link {
+    color: #fff;
+}
+
+
+.nav-link:hover {
+    border : 2px solid #009ad8 ;
+    border-radius: 30px;
+    color: #009ad8;
+    box-sizing: border-box;
+    
+}
+
+
+
+body {
+    background-image: url(../img/david-moum-nbqlWhOVu6k-unsplash.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.colorChange {
+    color: #009ad8;
+}

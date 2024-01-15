@@ -1,0 +1,1 @@
+.child2,.child5{grid-column-start:2}body{margin:0}.parent{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:200px}.child2{grid-column-end:4}.child5{grid-column-end:3;grid-row-start:2;grid-row-end:4}.child{background-color:teal;border:3px solid red;text-align:center;font-size:2rem}

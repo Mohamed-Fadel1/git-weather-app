@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-5">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img src="./img/logo@2x.png" class="w-50" alt=""> Weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  px-5 active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#">Live Camiras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#">Photo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#">Concat</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+
+
+<div class="container py-5">
+    <!-- search  section -->
+    <input type="text" class="w-100 py-3 px-4 rounded-5" placeholder="Find your location..." id="search">
+    <div class="row">
+
+<!-- today   data   -->
+        <div class="col-md-4 mt-5  rounded-4 py-2 px-3 text-light" >
+            <div class="d-flex justify-content-between" id="today-date">
+                <p id="today-date-name">Friday</p>
+               <span> 
+                <span id="today-date-day-number">12</span>
+               <span id="today-date-day-mounth">January</span>
+            </span>
+            </div>
+            <div class="item-content px-3 py-3 text-light" id="today">
+                <p class="fs-4" id="today-location">cairo</p>
+                <div class="d-flex justify-content-between align-items-center hamada">
+                    <span class=" fw-bolder ">
+                        <span id="today-temp" >6</span>
+                        <span > <sub>o</sub> c</span>
+                    </span>
+                    <img src="./img/116.webp" class="w-25" id="today-condation-img" alt="">
+                </div>
+                <p id="today-condation-text" class="mt-3 colorChange">Partly cloudy</p>
+            </div>
+            <div class="footer-content d-flex text-light p-3">
+                <div class="d-flex me-3">
+                    <img src="./img/icon-umberella@2x.png" class="footer-icons me-2" alt="">
+                    <p id="humidity">20%</p>
+                </div>
+                <div class="d-flex me-3">
+                    <img src="./img/icon-wind@2x.png" class="footer-icons me-2" alt="">
+                    <p id="wind">18km/h</p>
+                </div>
+                <div class="d-flex me-3">
+                    <img src="./img/icon-compass@2x.png" class="footer-icons me-2" alt="">
+                    <p id="wind-direction">East</p>
+                </div>
+            </div>
+        </div>
+
+<!--  tomorrow   data -->
+<div class="col-md-4 mt-5  rounded-4 py-2 px-3 text-light text-center m-0">
+    <div class=" text-light" id="tommorow-date">
+        <p class="next-day-name">Saturday</p>
+    </div>
+    <div class="item-contant p-3 pt-5" id="tommorw">
+<img src="./img/113.webp" class="next-img-contaition" alt="">
+<h3>
+    <span class="next-max-temp">5.6</span>
+    <span><sub>o</sub>c</span>
+</h3>
+<h6>
+    <span class="next-min-temp">1</span>
+    <span><sub>o</sub></span>
+</h6>
+<p class="next-condation-text colorChange">sunny</p>
+    </div>
+</div>
+
+<!-- after tommorow  -->
+<div class="col-md-4 mt-5  rounded-4 py-2 px-3 text-light text-center m-0">
+    <div class=" text-light" id="tommorow-date">
+        <p class="next-day-name">Saturday</p>
+    </div>
+    <div class="item-contant p-3 pt-5">
+<img src="./img/113.webp" class="next-img-contaition" alt="">
+<h3>
+    <span class="next-max-temp">5.6</span>
+    <span><sub>o</sub>c</span>
+</h3>
+<h6>
+    <span class="next-min-temp">1</span>
+    <span class=""><sub>o</sub></span>
+</h6>
+<p class="next-condation-text colorChange">sunny</p>
+    </div>
+</div>
+    </div>
+
+
+</div>
+
+
+
+<script src="./CSS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
